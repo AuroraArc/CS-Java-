@@ -47,6 +47,12 @@ public class SumInteger {
       System.out.print("Set i value: ");
       i = input.nextInt();
 
-
+      while (i > 0) {
+         if (i % 2 == 1) {
+            sum = sum + i % 10;
+         }
+         i = i / 10;
+      }
+      System.out.println(sum);
    }
 }
