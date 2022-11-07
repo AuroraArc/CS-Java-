@@ -7,7 +7,6 @@ public class SumInteger {
       int sum = 0;
       int i = 0;
 
-
       for (i = 0; i <= 100; i += 2) {
          sum = sum + i;
       }
@@ -33,7 +32,6 @@ public class SumInteger {
       i = input.nextInt();
       System.out.print("Set j value: ");
       int j = input.nextInt();
-
       while (i <= j) {
          if (i % 2 == 1) {
             sum = sum + i;
@@ -46,7 +44,6 @@ public class SumInteger {
 
       System.out.print("Set i value: ");
       i = input.nextInt();
-
       while (i > 0) {
          if (i % 2 == 1) {
             sum = sum + i % 10;
